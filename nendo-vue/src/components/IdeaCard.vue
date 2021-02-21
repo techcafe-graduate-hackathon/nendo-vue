@@ -1,0 +1,150 @@
+<template>
+  <div :class="place + ' content_frame'" @click="$emit('modal')">
+    <div :class="color + ' card_frame'">
+      <p class="idea_title">{{ title }}</p>
+      <div class="tag_list">
+        <p class="tag_frame">#音楽</p>
+        <p class="tag_frame">#運動</p>
+        <p class="tag_frame">#アプリ</p>
+      </div>
+    </div>
+    <img
+      :class="(button_pushed ? 'good_icon_ispushed' : 'good_icon_color') + ' good_icon'"
+      src="../assets/img/good_icon.png"
+      alt=""
+      @click.stop="button_pushed = !button_pushed"/>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "IdeaCard",
+    props: {
+      color: {
+        default: 'card_color_life'
+      },
+      place: {
+        required: true
+      },
+      title: {
+        type: String
+      }
+    },
+    data () {
+      return{
+        button_pushed: false
+      }
+    },
+    methods: {
+
+    }
+  }
+</script>
+
+<style scoped>
+  .content_frame {
+    position: relative;
+  }
+  .card_frame {
+    cursor: pointer;
+    width: 40vw;
+    min-height: 90px;
+    min-height: 15vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 0px 5px #494a6b);
+  }
+
+  .idea_title {
+    width: 95%;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .tag_list {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .tag_frame {
+    background-color: #ffffff4d;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .good_icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-color: #ffffff4d;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 100;
+    right: -10px;
+    bottom: -10px;
+  }
+  .good_icon:hover {
+    border: solid #ffffff 2px;
+  }
+  .good_icon_color{
+    background-color: #FFFFFF4D;
+  }
+  .good_icon_ispushed{
+    background-color: #F3BFBF;
+  }
+  /* ideaカードのカラー対応CSS */
+  .card_color_music {
+    background-color: #ff19e880;
+  }
+  .card_color_music:hover {
+    background-color: #ff19e8b0;
+  }
+  .card_color_life {
+    background-color: #5cfc3c80;
+  }
+  .card_color_life:hover {
+    background-color: #5cfc3cb0;
+  }
+  .card_color_creature {
+    background-color: #9c59c880;
+  }
+  .card_color_creature:hover {
+    background-color: #9c59c8b0;
+  }
+  .card_color_education {
+    background-color: #fbd40c80;
+  }
+  .card_color_education:hover {
+    background-color: #fbd40cb0;
+  }
+  .card_color_game {
+    background-color: #0f37ee80;
+  }
+  .card_color_game:hover {
+    background-color: #0f37eeb0;
+  }
+  .card_color_food {
+    background-color: #d5201880;
+  }
+  .card_color_food:hover {
+    background-color: #d52018b0;
+  }
+
+</style>

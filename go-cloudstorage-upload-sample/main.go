@@ -1,0 +1,1 @@
+package go_cloudstorage_upload_sample
