@@ -1,0 +1,42 @@
+[
+  {
+    "rendered_body": "\u003cp\u003eCSS\u003c/p\u003e\n",
+    "body": "CSS\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2020-11-17T23:50:15+09:00",
+    "group": null,
+    "id": "c814738c6eafa88606bc",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "cssアニメーション",
+        "versions": []
+      }
+    ],
+    "title": "CSSのみでアニメーションまとめ",
+    "updated_at": "2020-12-23T07:01:16+09:00",
+    "url": "https://qiita.com/ooitanojohn/items/c814738c6eafa88606bc",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 4,
+      "followers_count": 0,
+      "github_login_name": "ooitanojohn",
+      "id": "ooitanojohn",
+      "items_count": 1,
+      "linkedin_id": "",
+      "location": "",
+      "name": "秀人 新居見",
+      "organization": "HALosaka2024卒予",
+      "permanent_id": 722361,
+      "profile_image_url": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/722361/profile-images/1605431771",
+      "team_only": false,
+      "twitter_screen_name": "ooitanojohn",
+      "website_url": ""
+    },
+    "page_views_count": null
+  }
+]
