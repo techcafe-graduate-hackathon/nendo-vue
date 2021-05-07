@@ -7,9 +7,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "井上友博",
@@ -19,9 +19,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "大垣翔平",
@@ -31,9 +31,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "金子和弥",
@@ -43,9 +43,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "黒瀧萌乃",
@@ -55,9 +55,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "近藤里俊",
@@ -67,9 +67,9 @@
     "assign" : "プラットフォーム本部",
     "tag" : "音楽, EDM, 電子工作, デザイン, フロントエンド",
     "link" : "https://reerishun.com/",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "佐々木美香子",
@@ -79,9 +79,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "菅野航汰",
@@ -91,9 +91,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "鈴木愛花",
@@ -103,9 +103,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "高橋広斗",
@@ -115,9 +115,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "多田考瑛",
@@ -127,9 +127,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "杤木澪南",
@@ -139,9 +139,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "橋詰貴文",
@@ -151,9 +151,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "原田壮一郎",
@@ -163,9 +163,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "半谷幹太",
@@ -175,9 +175,9 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   },
   {
     "name" : "三上康太",
@@ -187,8 +187,8 @@
     "assign" : "配属先",
     "tag" : "趣味とか関連することをセミコロン（,）区切りで",
     "link" : "https://example.com",
-    "thumbnail" : "img/rishun/thumbnail.png",
-    "thumbnail_hover" : "img/rishun/thumbnail_hover.gif",
-    "icon" : "img/rishun/icon.jpg"
+    "thumbnail" : "img/member/rishun/thumbnail.png",
+    "thumbnail_hover" : "img/member/rishun/thumbnail_hover.gif",
+    "icon" : "img/member/rishun/icon.jpg"
   }
 ]
