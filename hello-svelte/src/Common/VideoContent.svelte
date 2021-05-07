@@ -1,104 +1,139 @@
 <script>
-  let thumbnail = 'https://pbs.twimg.com/media/Ez1qD_tVcAAv8JZ.jpg';
-  let birthday = '12:31';
-  let icon = 'https://pbs.twimg.com/profile_images/787511655416549376/t-xZBVmJ_400x400.jpg';
-  let title = '近藤里俊の自己紹介ページ';
-  let name = '近藤里俊';
+  export let member;
+  let thumbnail_image = member.thumbnail;
 
+  // サムネイル上にマウスが入った場合
+  function thumbnail_enter() {
+    thumbnail_image = member.thumbnail_hover;
+    console.log(member);
+  }
+
+  // サムネイル上からマウスが離れた場合
+  function thumbnail_leave() {
+    thumbnail_image = member.thumbnail;
+  }
 </script>
 
-<main>
-  <div class="video_content">
+<main class="video_content">
     <div
       class="page_thumbnail"
-      style=" { 'background-image: url(\'' + thumbnail + '\')' }">
+      on:mouseenter={thumbnail_enter}
+      on:mouseleave={thumbnail_leave}
+      style=" { 'background-image: url(\'' + thumbnail_image + '\');' }">
+      <a
+        href="{ member.link }">
 
-      <div class="birthday">
-          { birthday }
-      </div>
+        <div class="birthday">
+          { member.birthday }
+        </div>
+      </a>
     </div>
 
     <img
-      src="{ icon }"
-      alt="{ title }"
+      src="{ member.icon }"
+      alt="{ member.title }"
       class="icon">
 
     <div class="right_content">
       <h2>
-          { title }
+        <a
+          href="{ member.link }">
+          { member.title }
+        </a>
       </h2>
 
       <p class="name">
-          { name }
+        <a
+          href="{ member.link }"
+          title="{ member.channel_name }">
+          { member.channel_name }
+        </a>
       </p>
 
       <p class="play_cnt">
-        100 回視聴・プラットフォーム
+        100 回視聴・{ member.assign }
       </p>
     </div>
-  </div>
 </main>
 
-<style>
+<style lang="scss">
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
   .video_content {
-    width: 24%;
+    display: inline-block;
+    width: 23.56%;
     text-align: left;
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0 1% 32px 0;
   }
   .page_thumbnail {
     width: 100%;
-    height: 14vw;
+    height: 11vw;
     margin-bottom: 1vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    :link, :visited {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: #ffffff;
+    }
   }
   .birthday {
     position: absolute;
     bottom: .5vw;
     right: .5vw;
     border-radius: .2vw;
-    padding: .2vw .3vw;
-    font-size: 1vw;
+    padding: 3px 4px;
+    font-size: 12px;
     background-color: rgba(0, 0, 0, .8);
     color: #ffffff;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
   }
 
   .icon {
-    width: 2.7vw;
-    height: 2.7vw;
+    width: 36px;
+    height: 36px;
     border-radius: 4vw;
     vertical-align: top;
   }
   .right_content {
-    margin-left: 1vw;
-    font-size: 1vw;
+    margin-left: 5px;
     display: inline-block;
     text-align: left;
   }
   h2 {
-    font-weight: bolder;
-    font-size: 1vw;
-    line-height: 1vw;
-    height: 1vw;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
     padding: 0;
-    margin: 0 0 .8vw;
+    margin: 0 0 5px;
     color: #ffffff;
+    :link, :visited {
+      color: #ffffff;
+      text-decoration: none;
+    }
   }
   .name, .play_cnt {
     color: #888888;
-    font-size: 1vw;
-    line-height: 1.4vw;
-    height: 1.4vw;
+    font-size: 14px;
+    line-height: 18px;
     padding: 0;
     margin: 0;
   }
   .name {
-    font-weight: bold;
+    :link, :visited {
+      color: #888888;
+      &:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
   }
 </style>

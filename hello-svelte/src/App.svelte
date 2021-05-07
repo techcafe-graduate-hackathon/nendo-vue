@@ -1,17 +1,18 @@
 <script>
   import VideoContent from './Common/VideoContent.svelte';
   import SearchBar from "./Common/SearchBar.svelte";
-
-  let name = 'world';
+  import Navigation from "./Common/Navigation.svelte";
+  import VideoList from "./Common/VideoList.svelte";
 </script>
 
 <main>
   <SearchBar/>
-  <VideoContent/>
+  <Navigation/>
+  <VideoList/>
 </main>
 
 <style>
   main {
-    padding-top: 60px;
+    padding: 56px 0 0 240px;
   }
 </style>
