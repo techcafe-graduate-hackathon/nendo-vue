@@ -55,8 +55,7 @@
     display: inline-block;
     height: 32px;
     margin: 13px 0 0 calc(25.5% - 156px);
-    overflow: hidden;
-    border: solid 1px #ffffff14;
+    border: solid 1px #323232;
     background-color: #121212;
     border-radius: 2px;
     vertical-align: top;
@@ -81,6 +80,7 @@
     background-color: #323232;
     border: none;
     outline: none;
+    border-radius: 0;
   }
   .yt-icon {
     fill: #6b6b6b;
