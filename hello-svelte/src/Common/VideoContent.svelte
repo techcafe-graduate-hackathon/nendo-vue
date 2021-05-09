@@ -1,16 +1,20 @@
 <script>
+  // メンバーオブジェクトを親コンポーネントから受け取る
   export let member;
+
+  // デフォルトは静止画サムネイル
   let thumbnail_image = member.thumbnail;
 
   // サムネイル上にマウスが入った場合
   function thumbnail_enter() {
-    thumbnail_image = member.thumbnail_hover;
-    console.log(member);
+    // GIFアニメーションに切替
+    thumbnail_image ='url(\'' + member.thumbnail_hover + '\')';
   }
 
   // サムネイル上からマウスが離れた場合
   function thumbnail_leave() {
-    thumbnail_image = member.thumbnail;
+    // 静止画アニメーションに戻す
+    thumbnail_image = 'none';
   }
 </script>
 
@@ -19,9 +23,10 @@
       class="page_thumbnail"
       on:mouseenter={thumbnail_enter}
       on:mouseleave={thumbnail_leave}
-      style=" { 'background-image: url(\'' + thumbnail_image + '\');' }">
+      style=" { 'background-image: url(\'' + member.thumbnail + '\');' }">
       <a
-        href="{ member.link }">
+        href="{ member.link }"
+        style=" { 'background-image: ' + thumbnail_image}">
 
         <div class="birthday">
           { member.birthday }
@@ -72,10 +77,10 @@
     width: 100%;
     height: 11vw;
     margin-bottom: 1vw;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 
     :link, :visited {
       display: block;
@@ -83,6 +88,13 @@
       height: 100%;
       text-decoration: none;
       color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all  0.3s ease;
     }
   }
   .birthday {
