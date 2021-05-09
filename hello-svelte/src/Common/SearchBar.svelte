@@ -41,7 +41,7 @@
     padding: 0 16px;
     z-index: 100;
     width: 100%;
-    background-color: #313131;
+    background-color: #212121;
     vertical-align: top;
     text-align: left;
     height: 56px;
@@ -78,11 +78,11 @@
     width: 65px;
     height: 32px;
     vertical-align: top;
-    background-color: #ffffff14;
+    background-color: #323232;
     border: none;
     outline: none;
   }
   .yt-icon {
-    fill: #ffffff;
+    fill: #6b6b6b;
   }
 </style>

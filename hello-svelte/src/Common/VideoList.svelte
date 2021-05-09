@@ -30,9 +30,10 @@
 
   //　クエリ取得時の処理
   function getQuery() {
-    // テキスト検索
-    if (query.type === 'text') {
-
+    if (query.type === 'text') {          // テキスト検索
+      textSearch();
+    } else if (query.type === 'assign') { // 所属検索
+      assignSearch();
     }
   }
 
@@ -43,9 +44,7 @@
 
     // 全メンバーから一致するメンバーのみを配列に格納
     member_list__const.forEach(member => {
-
-      console.log(member);
-
+      // 検索用文字列を作成
       const targetText =
         member.name +
         member.channel_name +
@@ -53,13 +52,22 @@
         member.assign +
         member.tag;
 
-      console.log(targetText);
-      console.log(targetText.indexOf(query.query));
-      console.log(query);
-
       // 一致する場合
       if (targetText.indexOf(query.query) > -1) {
-        console.log('pushed');
+        member_list.push(member);
+      }
+    });
+  }
+
+  // 部署検索
+  function assignSearch() {
+    // メンバー一覧を初期化
+    member_list = [];
+
+    // 全メンバーから一致するメンバーのみを配列に格納
+    member_list__const.forEach(member => {
+      // 一致する場合
+      if (member.assign === query.query) {
         member_list.push(member);
       }
     });
